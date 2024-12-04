@@ -6,6 +6,7 @@ import static javax.swing.JOptionPane.YES_NO_OPTION;
 import static javax.swing.JOptionPane.YES_OPTION;
 
 public class Main extends Component {
+    //a
     //יצירת חלון המשחק
     public static JFrame createGameFrame(String title){
         JFrame jFrame = new JFrame(title);

@@ -110,7 +110,7 @@ public class Ghost extends Players implements Runnable {
     @Override //קביעת מיקום להזזה
     public void move() throws InterruptedException {
         if (!isCanMove) return; //אם עדיין לא אכל רבע אל תבצע את הפומקציה
-        int size = Players.size / 2; //הפיכת משתנה סטטי לפרטי
+//        int size = Players.size / 2; //הפיכת משתנה סטטי לפרטי
         int direc = random.nextInt(0, 4); //בחירה
 
         int newX = xPlayer;
